@@ -105,6 +105,12 @@ header h2 {
     color: #57ff32;
     font-family: "Irish Grover", system-ui;
 }
+
+#intro .green:hover {
+    color: #1d4115;
+    font-family: "Irish Grover", system-ui;
+    transition: all 1s ease;
+}
 /* 
 #intro .red {
     color: #c10000;
@@ -218,11 +224,17 @@ header h2 {
     text-align: center;
     width: auto;
 }
-
 #warning .red {
+    color: #04d31f;
+    font-size: 24px;
+    font-family: "Irish Grover", system-ui;
+}
+
+#warning .red:hover {
     color: #c10000;
     font-size: 24px;
     font-family: "Irish Grover", system-ui;
+    transition: all 1s ease;
 }
 /* LISTS */
 .card ul {
